@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato</title>
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+</head>
+<body>
+
+    <header>
+        <div class="caixa">
+            <h1><img src="fashion2.jpg" class="logo" alt="logo"></h1>
+            <nav>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="produtos.html">produtos</a></li>
+                <li><a href="contato.html">contato</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <form>
+            <label for="nomeesobrenome">Nome e sobrenome</label>
+            <input type="text" name="" id="nomeesobrenome" class="input-padrao">
+
+            <label for="email">Email</label>
+            <input type="email" name="" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="" id="telefone" class="input-padrao" required placeholder="(XX) xxxxx-xxxx">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="" id="mensagem" cols="65" rows="10" class="input-padrao" required></textarea>
+
+           <fieldset>
+               <legend>Como prefere o nosso contato?</legend>
+                <label for="radio-email"><input type="radio" value="email" name="contato" id="radio-email">Email</label>
+                
+
+                <label for="radio-telefone">  <input type="radio" value="telefone" name="contato" id="radio-telefone">Telefone</label>
+              
+
+                <label for="radio-wwp"><input type="radio" value="whatsapp" name="contato" id="radio-wwp" checked>Whasts App</label>
+                
+            </fieldset>
+
+            <fieldset>
+                <legend>Qual horário prefere ser atendido?</legend>
+                <select>
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                </select>
+             </fieldset>
+
+            <label for=""><input type="checkbox" class="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+            <input type="submit" value="Enviar Formulário" class="enviar">
+
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horario</th>
+            </tr>
+            </thead>
+            <tbody><tr>
+                    <td>Segunda</td>
+                    <td>8 - 20h</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>8 - 20h</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>8 - 20h</td>
+                </tr>
+                </tbody>
+        </table>
+
+    </main>
+
+    <footer>
+        <img src="fashion2.jpg" class="logo-rodape" alt="rodape">
+        <p class="copyright">&copy; Copryght Academia Fashion 2022</p>
+
+
+    </footer>
+    
+</body>
+</html>
